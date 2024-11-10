@@ -1,0 +1,66 @@
+{#
+ SPDX-FileCopyrightText: Copyright 2021, 2024 Arm Limited and/or its
+ affiliates <open-source-office@arm.com>
+ SPDX-License-Identifier: Apache-2.0
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+#}
+{{common_template_header}}
+
+#ifndef GENERATED_TEST_DATA_HPP
+#define GENERATED_TEST_DATA_HPP
+
+#include <cstdint>
+
+{% for namespace in namespaces %}
+namespace {{namespace}} {
+{% endfor %}
+
+#define NUMBER_OF_IFM_FILES ({{ifm_count}}U)
+#define NUMBER_OF_OFM_FILES ({{ofm_count}}U)
+
+/** Inputs */
+{% for ifm_param in ifm_params %}
+#define IFM_{{loop.index0}}_DATA_SIZE ({{ifm_param.size}}U)
+#define IFM_{{loop.index0}}_DATA_TYPE  {{ifm_param.data_type}}
+extern const IFM_{{loop.index0}}_DATA_TYPE {{ifm_param.var_name}}[IFM_{{loop.index0}}_DATA_SIZE];
+
+{% endfor %}
+
+/** Outputs */
+{% for ofm_param in ofm_params %}
+#define OFM_{{loop.index0}}_DATA_SIZE ({{ofm_param.size}}U)
+#define OFM_{{loop.index0}}_DATA_TYPE {{ofm_param.data_type}}
+extern const OFM_{{loop.index0}}_DATA_TYPE {{ofm_param.var_name}}[OFM_{{loop.index0}}_DATA_SIZE];
+
+{% endfor %}
+
+/**
+ * @brief       Gets the pointer to input feature map (IFM).
+ * @param[in]   idx     Index of the input.
+ * @return      Pointer to IFM.
+ **/
+const void* GetIfmDataArray(const uint32_t idx);
+
+/**
+ * @brief       Gets the pointer to output feature map (OFM).
+ * @param[in]   idx     Index of the output.
+ * @return      Pointer to OFM.
+ **/
+const void* GetOfmDataArray(const uint32_t idx);
+
+{% for namespace in namespaces %}
+} /* namespace {{namespace}} */
+{% endfor %}
+
+#endif /* GENERATED_TEST_DATA_HPP */

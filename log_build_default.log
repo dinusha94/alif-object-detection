@@ -1,0 +1,1176 @@
+INFO:root:Using Python version: sys.version_info(major=3, minor=10, micro=12, releaselevel='final', serial=0)
+INFO:root:'resources_downloaded' directory exists.
+INFO:root:('Vela version in metadata is %s, current %s. Removing the resources and re-download them.', '3.10.0', '3.12.0')
+DEBUG:venv:Upgrading ('pip', 'setuptools') packages in /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin
+INFO:root:/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/python3.10 -m pip install -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt
+INFO:root:Collecting cffi==1.15.0 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 1))
+  Using cached cffi-1.15.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (1.2 kB)
+Collecting cmake==3.25.2 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 2))
+  Using cached cmake-3.25.2-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (6.8 kB)
+Collecting flatbuffers==2.0.7 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 3))
+  Using cached flatbuffers-2.0.7-py2.py3-none-any.whl.metadata (872 bytes)
+Collecting importlib-metadata==6.0.0 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 4))
+  Using cached importlib_metadata-6.0.0-py3-none-any.whl.metadata (5.0 kB)
+Collecting Jinja2==3.1.4 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 5))
+  Downloading jinja2-3.1.4-py3-none-any.whl.metadata (2.6 kB)
+Collecting llvmlite==0.39.1 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 6))
+  Using cached llvmlite-0.39.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (4.7 kB)
+Collecting lxml==4.9.2 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 7))
+  Using cached lxml-4.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl.metadata (3.6 kB)
+Collecting MarkupSafe==2.0.1 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 8))
+  Using cached MarkupSafe-2.0.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl.metadata (3.2 kB)
+Collecting numba==0.56.4 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 9))
+  Using cached numba-0.56.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl.metadata (2.8 kB)
+Collecting numpy==1.23.5 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 10))
+  Using cached numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (2.3 kB)
+Collecting Pillow==10.3.0 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 11))
+  Downloading pillow-10.3.0-cp310-cp310-manylinux_2_28_x86_64.whl.metadata (9.2 kB)
+Collecting pycparser==2.20 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 12))
+  Using cached pycparser-2.20-py2.py3-none-any.whl.metadata (907 bytes)
+Collecting resampy==0.4.2 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 13))
+  Using cached resampy-0.4.2-py3-none-any.whl.metadata (2.8 kB)
+Collecting scipy==1.10.1 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 14))
+  Using cached scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (58 kB)
+Collecting six==1.16.0 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 15))
+  Using cached six-1.16.0-py2.py3-none-any.whl.metadata (1.8 kB)
+Collecting SoundFile==0.10.3.post1 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 16))
+  Using cached SoundFile-0.10.3.post1-py2.py3-none-any.whl.metadata (11 kB)
+Collecting zipp==3.15.0 (from -r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 17))
+  Using cached zipp-3.15.0-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: setuptools in ./resources_downloaded/env/lib/python3.10/site-packages (from numba==0.56.4->-r /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/py/requirements.txt (line 9)) (75.3.0)
+Using cached cffi-1.15.0-cp310-cp310-manylinux_2_12_x86_64.manylinux2010_x86_64.whl (446 kB)
+Using cached cmake-3.25.2-py2.py3-none-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (23.7 MB)
+Using cached flatbuffers-2.0.7-py2.py3-none-any.whl (26 kB)
+Using cached importlib_metadata-6.0.0-py3-none-any.whl (21 kB)
+Downloading jinja2-3.1.4-py3-none-any.whl (133 kB)
+Using cached llvmlite-0.39.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.6 MB)
+Using cached lxml-4.9.2-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl (7.1 MB)
+Using cached MarkupSafe-2.0.1-cp310-cp310-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_12_x86_64.manylinux2010_x86_64.whl (30 kB)
+Using cached numba-0.56.4-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl (3.5 MB)
+Using cached numpy-1.23.5-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (17.1 MB)
+Downloading pillow-10.3.0-cp310-cp310-manylinux_2_28_x86_64.whl (4.5 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 4.5/4.5 MB 499.7 kB/s eta 0:00:00
+Using cached pycparser-2.20-py2.py3-none-any.whl (112 kB)
+Using cached resampy-0.4.2-py3-none-any.whl (3.1 MB)
+Using cached scipy-1.10.1-cp310-cp310-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (34.4 MB)
+Using cached six-1.16.0-py2.py3-none-any.whl (11 kB)
+Using cached SoundFile-0.10.3.post1-py2.py3-none-any.whl (21 kB)
+Using cached zipp-3.15.0-py3-none-any.whl (6.8 kB)
+Installing collected packages: flatbuffers, cmake, zipp, six, pycparser, Pillow, numpy, MarkupSafe, lxml, llvmlite, scipy, numba, Jinja2, importlib-metadata, cffi, SoundFile, resampy
+Successfully installed Jinja2-3.1.4 MarkupSafe-2.0.1 Pillow-10.3.0 SoundFile-0.10.3.post1 cffi-1.15.0 cmake-3.25.2 flatbuffers-2.0.7 importlib-metadata-6.0.0 llvmlite-0.39.1 lxml-4.9.2 numba-0.56.4 numpy-1.23.5 pycparser-2.20 resampy-0.4.2 scipy-1.10.1 six-1.16.0 zipp-3.15.0
+
+INFO:root:/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/python3.10 -m pip freeze
+INFO:root:cffi==1.15.0
+cmake==3.25.2
+flatbuffers==2.0.7
+importlib-metadata==6.0.0
+Jinja2==3.1.4
+llvmlite==0.39.1
+lxml==4.9.2
+MarkupSafe==2.0.1
+numba==0.56.4
+numpy==1.23.5
+pillow==10.3.0
+pycparser==2.20
+resampy==0.4.2
+scipy==1.10.1
+six==1.16.0
+SoundFile==0.10.3.post1
+zipp==3.15.0
+
+INFO:root:/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/python3.10 -m pip install ethos-u-vela==3.12.0
+INFO:root:Collecting ethos-u-vela==3.12.0
+  Downloading ethos_u_vela-3.12.0.tar.gz (407 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting flatbuffers==23.5.26 (from ethos-u-vela==3.12.0)
+  Using cached flatbuffers-23.5.26-py2.py3-none-any.whl.metadata (850 bytes)
+Requirement already satisfied: numpy>1.10.0 in ./resources_downloaded/env/lib/python3.10/site-packages (from ethos-u-vela==3.12.0) (1.23.5)
+Requirement already satisfied: lxml>=4.5.2 in ./resources_downloaded/env/lib/python3.10/site-packages (from ethos-u-vela==3.12.0) (4.9.2)
+Using cached flatbuffers-23.5.26-py2.py3-none-any.whl (26 kB)
+Building wheels for collected packages: ethos-u-vela
+  Building wheel for ethos-u-vela (pyproject.toml): started
+  Building wheel for ethos-u-vela (pyproject.toml): finished with status 'done'
+  Created wheel for ethos-u-vela: filename=ethos_u_vela-3.12.0-cp310-cp310-linux_x86_64.whl size=622305 sha256=6051a2b0d803de025ae7ab6f4ac7bebabdeebb747565b6a2681e7b9a39dea29b
+  Stored in directory: /home/dinusha/.cache/pip/wheels/e8/08/cd/d82ac308858502706f1d777f6bdda8b4f6f985f8f1c07ff139
+Successfully built ethos-u-vela
+Installing collected packages: flatbuffers, ethos-u-vela
+  Attempting uninstall: flatbuffers
+    Found existing installation: flatbuffers 2.0.7
+    Uninstalling flatbuffers-2.0.7:
+      Successfully uninstalled flatbuffers-2.0.7
+Successfully installed ethos-u-vela-3.12.0 flatbuffers-23.5.26
+
+INFO:root:Downloading resources.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7c32b097f7d94aae2cd0b98a8ed5a3ba81e66b18/models/anomaly_detection/micronet_medium/tflite_int8/ad_medium_int8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7c32b097f7d94aae2cd0b98a8ed5a3ba81e66b18/models/anomaly_detection/micronet_medium/tflite_int8/testing_input/input/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7c32b097f7d94aae2cd0b98a8ed5a3ba81e66b18/models/anomaly_detection/micronet_medium/tflite_int8/testing_output/Identity/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/wav2letter_pruned_int8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/testing_input/input_2_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/testing_output/Identity_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/61e9a318a3e9333fd89fe43f9fd7a83ab1eb8171/models/speech_recognition/tiny_wav2letter/tflite_pruned_int8/tiny_wav2letter_pruned_int8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/61e9a318a3e9333fd89fe43f9fd7a83ab1eb8171/models/speech_recognition/tiny_wav2letter/tflite_pruned_int8/testing_input/input_1_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/61e9a318a3e9333fd89fe43f9fd7a83ab1eb8171/models/speech_recognition/tiny_wav2letter/tflite_pruned_int8/testing_output/Identity_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/e0aa361b03c738047b9147d1a50e3f2dcb13dbcb/models/image_classification/mobilenet_v2_1.0_224/tflite_int8/mobilenet_v2_1.0_224_INT8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/e0aa361b03c738047b9147d1a50e3f2dcb13dbcb/models/image_classification/mobilenet_v2_1.0_224/tflite_int8/testing_input/tfl.quantize/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/e0aa361b03c738047b9147d1a50e3f2dcb13dbcb/models/image_classification/mobilenet_v2_1.0_224/tflite_int8/testing_output/MobilenetV2/Predictions/Reshape_11/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/ofm0.npy.
+INFO:root:- Downloaded https://github.com/emza-vs/ModelZoo/blob/v1.0/object_detection/yolo-fastest_192_face_v4.tflite?raw=true to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/testing_input/input/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/testing_output/Identity/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/kws_micronet_m.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7dd3b16bb84007daf88be8648983c07f3eb21140/models/visual_wake_words/micronet_vww4/tflite_int8/vww4_128_128_INT8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7dd3b16bb84007daf88be8648983c07f3eb21140/models/visual_wake_words/micronet_vww4/tflite_int8/testing_input/input/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/7dd3b16bb84007daf88be8648983c07f3eb21140/models/visual_wake_words/micronet_vww4/tflite_int8/testing_output/Identity/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/wav2letter_pruned_int8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/testing_input/input_2_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/asr/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/1a92aa08c0de49a7304e0a7f3f59df6f4fd33ac8/models/speech_recognition/wav2letter/tflite_pruned_int8/testing_output/Identity_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/asr/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/testing_input/input/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/testing_output/Identity/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/9f506fe52b39df545f0e6c5ff9223f671bc5ae00/models/keyword_spotting/micronet_medium/tflite_int8/kws_micronet_m.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/rnnoise_INT8.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8.tflite.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_input/main_input_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ifm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_input/vad_gru_prev_state_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ifm1.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_input/noise_gru_prev_state_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ifm2.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_input/denoise_gru_prev_state_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ifm3.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_output/Identity_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ofm0.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_output/Identity_1_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ofm1.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_output/Identity_2_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ofm2.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_output/Identity_3_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ofm3.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/a061600058097a2785d6f1f7785e5a2d2a142955/models/noise_suppression/RNNoise/tflite_int8/testing_output/Identity_4_int8/0.npy to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/ofm4.npy.
+INFO:root:- Downloaded https://github.com/ARM-software/ML-zoo/raw/68b5fbc77ed28e67b2efc915997ea4477c1d9d5b/models/keyword_spotting/dnn_small/tflite_int8/dnn_s_quantized.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized.tflite.
+INFO:root:All models will be optimised for these configs:
+INFO:root:NpuConfig(name_prefix='ethos-u65', macs=256, processor_id='U65', prefix_id='Y', memory_mode='Dedicated_Sram', system_config='Ethos_U65_High_End', arena_cache_size=None)
+INFO:root:NpuConfig(name_prefix='ethos-u55', macs=128, processor_id='U55', prefix_id='H', memory_mode='Shared_Sram', system_config='Ethos_U55_High_End_Embedded', arena_cache_size=2097152)
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr 
+INFO:root:
+Network summary for wav2letter_pruned_int8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                363.55 KiB
+Total DRAM used                              14111.31 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 43 (100.0%)
+
+Average SRAM bandwidth                           4.06 GB/s
+Input   SRAM bandwidth                           6.64 MB/batch
+Weight  SRAM bandwidth                          55.10 MB/batch
+Output  SRAM bandwidth                           0.62 MB/batch
+Total   SRAM bandwidth                          62.42 MB/batch
+Total   SRAM bandwidth            per input     62.42 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.44 GB/s
+Input   DRAM bandwidth                           7.81 MB/batch
+Weight  DRAM bandwidth                          13.78 MB/batch
+Output  DRAM bandwidth                           0.60 MB/batch
+Total   DRAM bandwidth                          22.20 MB/batch
+Total   DRAM bandwidth            per input     22.20 MB/inference (batch size 1)
+
+Neural network macs                        3491106584 MACs/batch
+Network Tops/s                                   0.45 Tops/s
+
+NPU cycles                                   15334216 cycles/batch
+SRAM Access cycles                             476922 cycles/batch
+DRAM Access cycles                            2248012 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 15381733 cycles/batch
+
+Batch Inference time                15.38 ms,   65.01 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr --arena-cache-size=2097152
+INFO:root:
+Network summary for wav2letter_pruned_int8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                               1999.72 KiB
+Total Off-chip Flash used                    13618.73 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 43 (100.0%)
+
+Average SRAM bandwidth                           1.39 GB/s
+Input   SRAM bandwidth                          29.37 MB/batch
+Weight  SRAM bandwidth                          58.21 MB/batch
+Output  SRAM bandwidth                           1.21 MB/batch
+Total   SRAM bandwidth                          88.84 MB/batch
+Total   SRAM bandwidth            per input     88.84 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.22 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                13.88 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                13.88 MB/batch
+Total   Off-chip Flash bandwidth  per input     13.88 MB/inference (batch size 1)
+
+Neural network macs                        3491106584 MACs/batch
+Network Tops/s                                   0.11 Tops/s
+
+NPU cycles                                   31963984 cycles/batch
+SRAM Access cycles                            3914269 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                     3712 cycles/batch
+Total cycles                                 31999587 cycles/batch
+
+Batch Inference time                64.00 ms,   15.63 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/asr/wav2letter_pruned_int8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws 
+INFO:root:
+Network summary for kws_micronet_m
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                110.88 KiB
+Total DRAM used                                152.44 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           4.52 GB/s
+Input   SRAM bandwidth                           0.53 MB/batch
+Weight  SRAM bandwidth                           0.42 MB/batch
+Output  SRAM bandwidth                           0.25 MB/batch
+Total   SRAM bandwidth                           1.22 MB/batch
+Total   SRAM bandwidth            per input      1.22 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.58 GB/s
+Input   DRAM bandwidth                           0.02 MB/batch
+Weight  DRAM bandwidth                           0.14 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           0.16 MB/batch
+Total   DRAM bandwidth            per input      0.16 MB/inference (batch size 1)
+
+Neural network macs                          15580852 MACs/batch
+Network Tops/s                                   0.12 Tops/s
+
+NPU cycles                                     269379 cycles/batch
+SRAM Access cycles                              49036 cycles/batch
+DRAM Access cycles                              74474 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                   269430 cycles/batch
+
+Batch Inference time                 0.27 ms, 3711.53 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws --arena-cache-size=2097152
+INFO:root:
+Network summary for kws_micronet_m
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                106.50 KiB
+Total Off-chip Flash used                      152.33 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           1.59 GB/s
+Input   SRAM bandwidth                           0.52 MB/batch
+Weight  SRAM bandwidth                           0.67 MB/batch
+Output  SRAM bandwidth                           0.25 MB/batch
+Total   SRAM bandwidth                           1.46 MB/batch
+Total   SRAM bandwidth            per input      1.46 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.15 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.14 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.14 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.14 MB/inference (batch size 1)
+
+Neural network macs                          15580852 MACs/batch
+Network Tops/s                                   0.03 Tops/s
+
+NPU cycles                                     456112 cycles/batch
+SRAM Access cycles                             102835 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                     2704 cycles/batch
+Total cycles                                   458231 cycles/batch
+
+Batch Inference time                 0.92 ms, 1091.15 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws/kws_micronet_m_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection 
+INFO:root:
+Network summary for yolo-fastest_192_face_v4
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                360.81 KiB
+Total DRAM used                                715.84 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 112 (100.0%)
+
+Average SRAM bandwidth                           5.79 GB/s
+Input   SRAM bandwidth                           4.11 MB/batch
+Weight  SRAM bandwidth                           1.00 MB/batch
+Output  SRAM bandwidth                           2.95 MB/batch
+Total   SRAM bandwidth                           8.12 MB/batch
+Total   SRAM bandwidth            per input      8.12 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.92 GB/s
+Input   DRAM bandwidth                           0.49 MB/batch
+Weight  DRAM bandwidth                           0.36 MB/batch
+Output  DRAM bandwidth                           0.45 MB/batch
+Total   DRAM bandwidth                           1.29 MB/batch
+Total   DRAM bandwidth            per input      1.29 MB/inference (batch size 1)
+
+Neural network macs                          39152736 MACs/batch
+Network Tops/s                                   0.06 Tops/s
+
+NPU cycles                                    1198294 cycles/batch
+SRAM Access cycles                             441104 cycles/batch
+DRAM Access cycles                             421222 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  1402046 cycles/batch
+
+Batch Inference time                 1.40 ms,  713.24 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection --arena-cache-size=2097152
+INFO:root:
+Network summary for yolo-fastest_192_face_v4
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                432.92 KiB
+Total Off-chip Flash used                      429.53 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 112 (100.0%)
+
+Average SRAM bandwidth                           2.04 GB/s
+Input   SRAM bandwidth                           4.84 MB/batch
+Weight  SRAM bandwidth                           1.20 MB/batch
+Output  SRAM bandwidth                           3.40 MB/batch
+Total   SRAM bandwidth                           9.50 MB/batch
+Total   SRAM bandwidth            per input      9.50 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.08 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.36 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.36 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.36 MB/inference (batch size 1)
+
+Neural network macs                          39152736 MACs/batch
+Network Tops/s                                   0.02 Tops/s
+
+NPU cycles                                    2267813 cycles/batch
+SRAM Access cycles                            1045218 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  2323515 cycles/batch
+
+Batch Inference time                 4.65 ms,  215.19 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/object_detection/yolo-fastest_192_face_v4_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr 
+INFO:root:
+Network summary for kws_micronet_m
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                110.88 KiB
+Total DRAM used                                152.44 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           4.52 GB/s
+Input   SRAM bandwidth                           0.53 MB/batch
+Weight  SRAM bandwidth                           0.42 MB/batch
+Output  SRAM bandwidth                           0.25 MB/batch
+Total   SRAM bandwidth                           1.22 MB/batch
+Total   SRAM bandwidth            per input      1.22 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.58 GB/s
+Input   DRAM bandwidth                           0.02 MB/batch
+Weight  DRAM bandwidth                           0.14 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           0.16 MB/batch
+Total   DRAM bandwidth            per input      0.16 MB/inference (batch size 1)
+
+Neural network macs                          15580852 MACs/batch
+Network Tops/s                                   0.12 Tops/s
+
+NPU cycles                                     269379 cycles/batch
+SRAM Access cycles                              49036 cycles/batch
+DRAM Access cycles                              74474 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                   269430 cycles/batch
+
+Batch Inference time                 0.27 ms, 3711.53 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr --arena-cache-size=2097152
+INFO:root:
+Network summary for kws_micronet_m
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                106.50 KiB
+Total Off-chip Flash used                      152.33 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           1.59 GB/s
+Input   SRAM bandwidth                           0.52 MB/batch
+Weight  SRAM bandwidth                           0.67 MB/batch
+Output  SRAM bandwidth                           0.25 MB/batch
+Total   SRAM bandwidth                           1.46 MB/batch
+Total   SRAM bandwidth            per input      1.46 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.15 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.14 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.14 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.14 MB/inference (batch size 1)
+
+Neural network macs                          15580852 MACs/batch
+Network Tops/s                                   0.03 Tops/s
+
+NPU cycles                                     456112 cycles/batch
+SRAM Access cycles                             102835 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                     2704 cycles/batch
+Total cycles                                   458231 cycles/batch
+
+Batch Inference time                 0.92 ms, 1091.15 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/kws_micronet_m_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr 
+INFO:root:
+Network summary for wav2letter_pruned_int8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                363.55 KiB
+Total DRAM used                              14111.31 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 43 (100.0%)
+
+Average SRAM bandwidth                           4.06 GB/s
+Input   SRAM bandwidth                           6.64 MB/batch
+Weight  SRAM bandwidth                          55.10 MB/batch
+Output  SRAM bandwidth                           0.62 MB/batch
+Total   SRAM bandwidth                          62.42 MB/batch
+Total   SRAM bandwidth            per input     62.42 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.44 GB/s
+Input   DRAM bandwidth                           7.81 MB/batch
+Weight  DRAM bandwidth                          13.78 MB/batch
+Output  DRAM bandwidth                           0.60 MB/batch
+Total   DRAM bandwidth                          22.20 MB/batch
+Total   DRAM bandwidth            per input     22.20 MB/inference (batch size 1)
+
+Neural network macs                        3491106584 MACs/batch
+Network Tops/s                                   0.45 Tops/s
+
+NPU cycles                                   15334216 cycles/batch
+SRAM Access cycles                             476922 cycles/batch
+DRAM Access cycles                            2248012 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                 15381733 cycles/batch
+
+Batch Inference time                15.38 ms,   65.01 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr --arena-cache-size=2097152
+INFO:root:
+Network summary for wav2letter_pruned_int8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                               1999.72 KiB
+Total Off-chip Flash used                    13618.73 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 43 (100.0%)
+
+Average SRAM bandwidth                           1.39 GB/s
+Input   SRAM bandwidth                          29.37 MB/batch
+Weight  SRAM bandwidth                          58.21 MB/batch
+Output  SRAM bandwidth                           1.21 MB/batch
+Total   SRAM bandwidth                          88.84 MB/batch
+Total   SRAM bandwidth            per input     88.84 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.22 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                13.88 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                13.88 MB/batch
+Total   Off-chip Flash bandwidth  per input     13.88 MB/inference (batch size 1)
+
+Neural network macs                        3491106584 MACs/batch
+Network Tops/s                                   0.11 Tops/s
+
+NPU cycles                                   31963984 cycles/batch
+SRAM Access cycles                            3914269 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                     3712 cycles/batch
+Total cycles                                 31999587 cycles/batch
+
+Batch Inference time                64.00 ms,   15.63 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/kws_asr/wav2letter_pruned_int8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr 
+INFO:root:
+Network summary for tiny_wav2letter_pruned_int8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                375.30 KiB
+Total DRAM used                               2354.34 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 10 (100.0%)
+
+Average SRAM bandwidth                           4.18 GB/s
+Input   SRAM bandwidth                           2.66 MB/batch
+Weight  SRAM bandwidth                          10.03 MB/batch
+Output  SRAM bandwidth                           0.35 MB/batch
+Total   SRAM bandwidth                          13.07 MB/batch
+Total   SRAM bandwidth            per input     13.07 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.76 GB/s
+Input   DRAM bandwidth                           0.01 MB/batch
+Weight  DRAM bandwidth                           2.37 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           2.39 MB/batch
+Total   DRAM bandwidth            per input      2.39 MB/inference (batch size 1)
+
+Neural network macs                         578273000 MACs/batch
+Network Tops/s                                   0.37 Tops/s
+
+NPU cycles                                    3128302 cycles/batch
+SRAM Access cycles                             209860 cycles/batch
+DRAM Access cycles                               9156 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  3128302 cycles/batch
+
+Batch Inference time                 3.13 ms,  319.66 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr --arena-cache-size=2097152
+INFO:root:
+Network summary for tiny_wav2letter_pruned_int8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                               1197.20 KiB
+Total Off-chip Flash used                     2343.66 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 10 (100.0%)
+
+Average SRAM bandwidth                           1.19 GB/s
+Input   SRAM bandwidth                           5.54 MB/batch
+Weight  SRAM bandwidth                          10.17 MB/batch
+Output  SRAM bandwidth                           0.35 MB/batch
+Total   SRAM bandwidth                          16.09 MB/batch
+Total   SRAM bandwidth            per input     16.09 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.18 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 2.37 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 2.37 MB/batch
+Total   Off-chip Flash bandwidth  per input      2.37 MB/inference (batch size 1)
+
+Neural network macs                         578273000 MACs/batch
+Network Tops/s                                   0.09 Tops/s
+
+NPU cycles                                    6761660 cycles/batch
+SRAM Access cycles                             825525 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  6761660 cycles/batch
+
+Batch Inference time                13.52 ms,   73.95 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/tiny_asr/tiny_wav2letter_pruned_int8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction 
+INFO:root:
+Network summary for rnnoise_INT8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                  0.75 KiB
+Total DRAM used                                119.56 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 49 (100.0%)
+
+Average SRAM bandwidth                           0.13 GB/s
+Input   SRAM bandwidth                           0.00 MB/batch
+Weight  SRAM bandwidth                           0.00 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                           0.01 MB/batch
+Total   SRAM bandwidth            per input      0.01 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           2.90 GB/s
+Input   DRAM bandwidth                           0.00 MB/batch
+Weight  DRAM bandwidth                           0.13 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           0.15 MB/batch
+Total   DRAM bandwidth            per input      0.15 MB/inference (batch size 1)
+
+Neural network macs                             87444 MACs/batch
+Network Tops/s                                   0.00 Tops/s
+
+NPU cycles                                      44098 cycles/batch
+SRAM Access cycles                                419 cycles/batch
+DRAM Access cycles                              39079 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                    50521 cycles/batch
+
+Batch Inference time                 0.05 ms, 19793.56 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction --arena-cache-size=2097152
+INFO:root:
+Network summary for rnnoise_INT8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                  0.94 KiB
+Total Off-chip Flash used                      119.23 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 49 (100.0%)
+
+Average SRAM bandwidth                           0.02 GB/s
+Input   SRAM bandwidth                           0.00 MB/batch
+Weight  SRAM bandwidth                           0.00 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                           0.01 MB/batch
+Total   SRAM bandwidth            per input      0.01 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.50 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.13 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.15 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.15 MB/inference (batch size 1)
+
+Neural network macs                             87444 MACs/batch
+Network Tops/s                                   0.00 Tops/s
+
+NPU cycles                                      24118 cycles/batch
+SRAM Access cycles                                986 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                   142437 cycles/batch
+Total cycles                                   146439 cycles/batch
+
+Batch Inference time                 0.29 ms, 3414.38 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/noise_reduction/rnnoise_INT8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww 
+INFO:root:Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_162/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [ 0 16]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_91/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 8]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_31/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_50/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_61/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_80/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_102/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 8]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_132/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [ 0 20]
+
+Network summary for vww4_128_128_INT8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                128.34 KiB
+Total DRAM used                                411.05 KiB
+
+CPU operators = 8 (11.0%)
+NPU operators = 65 (89.0%)
+
+Average SRAM bandwidth                           3.55 GB/s
+Input   SRAM bandwidth                           0.99 MB/batch
+Weight  SRAM bandwidth                           0.65 MB/batch
+Output  SRAM bandwidth                           0.82 MB/batch
+Total   SRAM bandwidth                           2.51 MB/batch
+Total   SRAM bandwidth            per input      2.51 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.87 GB/s
+Input   DRAM bandwidth                           0.22 MB/batch
+Weight  DRAM bandwidth                           0.31 MB/batch
+Output  DRAM bandwidth                           0.09 MB/batch
+Total   DRAM bandwidth                           0.61 MB/batch
+Total   DRAM bandwidth            per input      0.61 MB/inference (batch size 1)
+
+Neural network macs                          18929152 MACs/batch
+Network Tops/s                                   0.05 Tops/s
+
+NPU cycles                                     395249 cycles/batch
+SRAM Access cycles                             113464 cycles/batch
+DRAM Access cycles                             511161 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                   706410 cycles/batch
+
+Batch Inference time                 0.71 ms, 1415.61 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww --arena-cache-size=2097152
+INFO:root:Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_162/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [ 0 16]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_91/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 8]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_31/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_50/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_61/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_80/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 4]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_102/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [0 8]
+Warning: PAD 'Pad;StatefulPartitionedCall/StatefulPartitionedCall/PartitionedCall_132/PartitionedCall/Pad' is not supported on the NPU. Placing on CPU instead
+ - The pad tensor can only pad width and height
+   First dimension padding: [0 0], last dimension padding: [ 0 20]
+
+Network summary for vww4_128_128_INT8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                128.34 KiB
+Total Off-chip Flash used                      369.75 KiB
+
+CPU operators = 8 (11.0%)
+NPU operators = 65 (89.0%)
+
+Average SRAM bandwidth                           2.27 GB/s
+Input   SRAM bandwidth                           1.34 MB/batch
+Weight  SRAM bandwidth                           0.76 MB/batch
+Output  SRAM bandwidth                           0.91 MB/batch
+Total   SRAM bandwidth                           3.06 MB/batch
+Total   SRAM bandwidth            per input      3.06 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.23 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.31 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.31 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.31 MB/inference (batch size 1)
+
+Neural network macs                          18929152 MACs/batch
+Network Tops/s                                   0.03 Tops/s
+
+NPU cycles                                     652048 cycles/batch
+SRAM Access cycles                             309637 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                      416 cycles/batch
+Total cycles                                   673076 cycles/batch
+
+Batch Inference time                 1.35 ms,  742.86 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/vww/vww4_128_128_INT8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner 
+INFO:root:Warning: Unsupported TensorFlow Lite semantics for QUANTIZE 'input_int8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: input
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'Identity'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Identity
+
+Network summary for dnn_s_quantized
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                  0.28 KiB
+Total DRAM used                                 88.89 KiB
+
+CPU operators = 2 (5.4%)
+NPU operators = 35 (94.6%)
+
+Average SRAM bandwidth                           0.06 GB/s
+Input   SRAM bandwidth                           0.00 MB/batch
+Weight  SRAM bandwidth                           0.00 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth            per input      0.00 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           3.67 GB/s
+Input   DRAM bandwidth                           0.00 MB/batch
+Weight  DRAM bandwidth                           0.14 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           0.14 MB/batch
+Total   DRAM bandwidth            per input      0.14 MB/inference (batch size 1)
+
+Neural network macs                             79224 MACs/batch
+Network Tops/s                                   0.00 Tops/s
+
+NPU cycles                                      27046 cycles/batch
+SRAM Access cycles                                156 cycles/batch
+DRAM Access cycles                              38299 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                    38872 cycles/batch
+
+Batch Inference time                 0.04 ms, 25725.31 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner --arena-cache-size=2097152
+INFO:root:Warning: Unsupported TensorFlow Lite semantics for QUANTIZE 'input_int8'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: input
+Warning: Unsupported TensorFlow Lite semantics for DEQUANTIZE 'Identity'. Placing on CPU instead
+ - Input(s), Output and Weight tensors must have quantization parameters
+   Op has tensors with missing quantization parameters: Identity
+
+Network summary for dnn_s_quantized
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                  1.23 KiB
+Total Off-chip Flash used                       87.64 KiB
+
+CPU operators = 2 (5.4%)
+NPU operators = 35 (94.6%)
+
+Average SRAM bandwidth                           0.01 GB/s
+Input   SRAM bandwidth                           0.00 MB/batch
+Weight  SRAM bandwidth                           0.00 MB/batch
+Output  SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth                           0.00 MB/batch
+Total   SRAM bandwidth            per input      0.00 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.50 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.14 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.14 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.14 MB/inference (batch size 1)
+
+Neural network macs                             79224 MACs/batch
+Network Tops/s                                   0.00 Tops/s
+
+NPU cycles                                      22735 cycles/batch
+SRAM Access cycles                                378 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                   141528 cycles/batch
+Total cycles                                   142799 cycles/batch
+
+Batch Inference time                 0.29 ms, 3501.42 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/inference_runner/dnn_s_quantized_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad 
+INFO:root:
+Network summary for ad_medium_int8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                298.66 KiB
+Total DRAM used                                465.64 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           8.30 GB/s
+Input   SRAM bandwidth                           1.67 MB/batch
+Weight  SRAM bandwidth                           1.74 MB/batch
+Output  SRAM bandwidth                           0.66 MB/batch
+Total   SRAM bandwidth                           4.09 MB/batch
+Total   SRAM bandwidth            per input      4.09 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           0.93 GB/s
+Input   DRAM bandwidth                           0.02 MB/batch
+Weight  DRAM bandwidth                           0.44 MB/batch
+Output  DRAM bandwidth                           0.00 MB/batch
+Total   DRAM bandwidth                           0.46 MB/batch
+Total   DRAM bandwidth            per input      0.46 MB/inference (batch size 1)
+
+Neural network macs                          62351136 MACs/batch
+Network Tops/s                                   0.25 Tops/s
+
+NPU cycles                                     492923 cycles/batch
+SRAM Access cycles                             145380 cycles/batch
+DRAM Access cycles                              67076 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                   493143 cycles/batch
+
+Batch Inference time                 0.49 ms, 2027.81 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad --arena-cache-size=2097152
+INFO:root:
+Network summary for ad_medium_int8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                                278.59 KiB
+Total Off-chip Flash used                      467.61 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 13 (100.0%)
+
+Average SRAM bandwidth                           2.56 GB/s
+Input   SRAM bandwidth                           2.56 MB/batch
+Weight  SRAM bandwidth                           1.66 MB/batch
+Output  SRAM bandwidth                           0.66 MB/batch
+Total   SRAM bandwidth                           4.91 MB/batch
+Total   SRAM bandwidth            per input      4.91 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.23 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 0.45 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 0.45 MB/batch
+Total   Off-chip Flash bandwidth  per input      0.45 MB/inference (batch size 1)
+
+Neural network macs                          62351136 MACs/batch
+Network Tops/s                                   0.06 Tops/s
+
+NPU cycles                                     958515 cycles/batch
+SRAM Access cycles                             409228 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                     2576 cycles/batch
+Total cycles                                   960686 cycles/batch
+
+Batch Inference time                 1.92 ms,  520.46 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/ad/ad_medium_int8_vela_H128.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8.tflite --accelerator-config=ethos-u65-256 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Dedicated_Sram --system-config=Ethos_U65_High_End --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class 
+INFO:root:
+Network summary for mobilenet_v2_1.0_224_INT8
+Accelerator configuration               Ethos_U65_256
+System configuration               Ethos_U65_High_End
+Memory mode                            Dedicated_Sram
+Accelerator clock                                1000 MHz
+Design peak SRAM bandwidth                      16.00 GB/s
+Design peak DRAM bandwidth                       3.75 GB/s
+
+Total SRAM used                                375.23 KiB
+Total DRAM used                               3802.39 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 95 (100.0%)
+
+Average SRAM bandwidth                           5.90 GB/s
+Input   SRAM bandwidth                          11.07 MB/batch
+Weight  SRAM bandwidth                           6.96 MB/batch
+Output  SRAM bandwidth                           6.57 MB/batch
+Total   SRAM bandwidth                          24.77 MB/batch
+Total   SRAM bandwidth            per input     24.77 MB/inference (batch size 1)
+
+Average DRAM bandwidth                           1.20 GB/s
+Input   DRAM bandwidth                           1.17 MB/batch
+Weight  DRAM bandwidth                           3.45 MB/batch
+Output  DRAM bandwidth                           0.41 MB/batch
+Total   DRAM bandwidth                           5.04 MB/batch
+Total   DRAM bandwidth            per input      5.04 MB/inference (batch size 1)
+
+Neural network macs                         304452946 MACs/batch
+Network Tops/s                                   0.15 Tops/s
+
+NPU cycles                                    3421116 cycles/batch
+SRAM Access cycles                            1102637 cycles/batch
+DRAM Access cycles                            1597211 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                        0 cycles/batch
+Total cycles                                  4197343 cycles/batch
+
+Batch Inference time                 4.20 ms,  238.25 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8_vela_Y256.tflite.
+INFO:root:. /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/env/bin/activate && vela /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8.tflite --accelerator-config=ethos-u55-128 --optimise Performance --config /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/scripts/vela/default_vela.ini --memory-mode=Shared_Sram --system-config=Ethos_U55_High_End_Embedded --output-dir=/home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class --arena-cache-size=2097152
+INFO:root:
+Network summary for mobilenet_v2_1.0_224_INT8
+Accelerator configuration               Ethos_U55_128
+System configuration             Ethos_U55_High_End_Embedded
+Memory mode                               Shared_Sram
+Accelerator clock                                 500 MHz
+Design peak SRAM bandwidth                       4.00 GB/s
+Design peak Off-chip Flash bandwidth             0.50 GB/s
+
+Total SRAM used                               1474.22 KiB
+Total Off-chip Flash used                     3550.92 KiB
+
+CPU operators = 0 (0.0%)
+NPU operators = 95 (100.0%)
+
+Average SRAM bandwidth                           1.90 GB/s
+Input   SRAM bandwidth                          13.53 MB/batch
+Weight  SRAM bandwidth                           8.85 MB/batch
+Output  SRAM bandwidth                           6.99 MB/batch
+Total   SRAM bandwidth                          29.54 MB/batch
+Total   SRAM bandwidth            per input     29.54 MB/inference (batch size 1)
+
+Average Off-chip Flash bandwidth                 0.22 GB/s
+Input   Off-chip Flash bandwidth                 0.00 MB/batch
+Weight  Off-chip Flash bandwidth                 3.45 MB/batch
+Output  Off-chip Flash bandwidth                 0.00 MB/batch
+Total   Off-chip Flash bandwidth                 3.46 MB/batch
+Total   Off-chip Flash bandwidth  per input      3.46 MB/inference (batch size 1)
+
+Neural network macs                         304452946 MACs/batch
+Network Tops/s                                   0.04 Tops/s
+
+NPU cycles                                    6715796 cycles/batch
+SRAM Access cycles                            2636541 cycles/batch
+DRAM Access cycles                                  0 cycles/batch
+On-chip Flash Access cycles                         0 cycles/batch
+Off-chip Flash Access cycles                  1238111 cycles/batch
+Total cycles                                  7785289 cycles/batch
+
+Batch Inference time                15.57 ms,   64.22 inferences/s (batch size 1)
+
+
+INFO:root:Renaming /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8_vela.tflite to /home/dinusha/my-fork/alif_ml-embedded-evaluation-kit/resources_downloaded/img_class/mobilenet_v2_1.0_224_INT8_vela_H128.tflite.
+INFO:root:Collecting and write metadata.
