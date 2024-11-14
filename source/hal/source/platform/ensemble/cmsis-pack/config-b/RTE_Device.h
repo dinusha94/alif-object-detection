@@ -2406,7 +2406,7 @@
 // <o> ISSI FLASH Wait cycles
 // <i> Defines the number of wait (dummy) cycles needed for fast read operations
 // <i> Default: 16
-#define RTE_ISSI_FLASH_WAIT_CYCLES              10
+#define RTE_ISSI_FLASH_WAIT_CYCLES              16
 
 #endif
 // </e> FLASH (ISSI FLASH) [Driver_Flash]
