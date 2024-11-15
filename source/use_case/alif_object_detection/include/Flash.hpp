@@ -8,6 +8,9 @@
 #include "log_macros.h"    
 #include "FaceEmbedding.hpp"
 #include "ospi_flash.h"
+#include "RegistrationData.hpp"
+
+#define USE_REG_FILE 
 
 // Helper function to serialize FaceEmbeddingCollection
 std::vector<uint8_t> Serialize(const FaceEmbeddingCollection &collection) {
@@ -94,18 +97,27 @@ int32_t flash_send(const FaceEmbeddingCollection &data)
 int32_t ospi_flash_read_collection(FaceEmbeddingCollection &collection)
 {
     int32_t ret;
-    uint16_t read_buff[2048];
-    
-    // Perform the read operation from flash memory
-    ret = ptrDrvFlash->ReadData(0xC0000000, read_buff, sizeof(read_buff));  
+    uint16_t* read_buff;
 
-    std::copy(read_buff + 4, read_buff + 2048, read_buff);
+    #ifdef USE_REG_FILE
+        read_buff = reg_data;
+    #else
+        static uint16_t buffer[2048];  // Local buffer for flash data
+        read_buff = buffer; 
+        // Perform the read operation from flash memory
+        ret = ptrDrvFlash->ReadData(0xC0000000, read_buff, sizeof(buffer)); 
+    #endif
 
-    // printf("Read new buf numPersons:\n");
-    // for (size_t i = 520; i < 550; ++i) {
+    printf("Read buf numPersons:\n");
+    // for (size_t i = 0; i < sizeof(read_buff); ++i) {
     //     printf("%02x ", read_buff[i]);
     // }
-    // printf("\n");
+    for (size_t i = 0; i < 2048; ++i) { 
+        printf("0x%04x, ", ((uint16_t*)read_buff)[i]);
+    }
+    printf("\n");
+
+    std::copy(read_buff + 4, read_buff + 2048, read_buff);
 
     // Wait until the flash read operation is complete
     ARM_FLASH_STATUS flash_status;
@@ -117,7 +129,9 @@ int32_t ospi_flash_read_collection(FaceEmbeddingCollection &collection)
     // std::vector<uint8_t> serializedData(read_buff, read_buff + sizeof(read_buff));
     std::vector<uint8_t> serializedData;
     serializedData.reserve(4096);  // Reserve space for 1024 uint16_t entries
-    for (uint16_t value : read_buff) {
+    // for (uint16_t value : read_buff) {
+    for (size_t i = 0; i < 2048; ++i) {
+        uint16_t value = read_buff[i];
         serializedData.push_back(static_cast<uint8_t>(value & 0xFF));
         serializedData.push_back(static_cast<uint8_t>((value >> 8) & 0xFF));
     }
